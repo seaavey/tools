@@ -1,0 +1,42 @@
+{
+  "name": "@seaavey/tools",
+  "version": "1.0.0",
+  "description": "A collection of code, scrapers, and tools designed to streamline web automation and data extraction. Practical solutions for efficient app, bot, and website development.",
+  "keywords": [
+    "scraper",
+    "scraping",
+    "web-scraping",
+    "stream",
+    "buffer",
+    "tools",
+    "seaavey",
+    "typescript"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/seaavey/tools",
+  "repository": {
+    "url": "git@github.com/seaavey/tools.git"
+  },
+  "author": {
+    "name": "Muhammad Adriansyah",
+    "email": "seaavey@gmail.com",
+    "url": "https://seaavey.me"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/*"
+  ],
+  "dependencies": {
+    "axios": "^1.9.0",
+    "file-type": "^16.5.4",
+    "mime-types": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^22.15.3"
+  }
+}
