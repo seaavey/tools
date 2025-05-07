@@ -13,7 +13,8 @@
     "typescript"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepack": "tsc",
+    "prepare": "tsc"
   },
   "homepage": "https://github.com/seaavey/tools",
   "repository": {
