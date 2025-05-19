@@ -1,6 +1,6 @@
 {
   "name": "@seaavey/tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of code, scrapers, and tools designed to streamline web automation and data extraction. Practical solutions for efficient app, bot, and website development.",
   "keywords": [
     "scraper",

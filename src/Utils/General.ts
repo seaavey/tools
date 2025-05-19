@@ -1,3 +1,12 @@
+import readline from 'readline';
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+export const question = (text: string): Promise<string> => new Promise((res) => rl.question(text, (answer) => res(answer)));
+
 /**
  * Delays the execution for a specified amount of time.
  *
